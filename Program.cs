@@ -34,7 +34,18 @@ class Hello
         cond.CheckEvenOdd(10);
         cond.CheckEvenOdd(-11);
         cond.DayOfWeek(1);
+
+
+        // loops while , do-while , for , foreach
+        Loops loops = new Loops();
+        loops.ForLoopExample();
+       
+        loops.WhileLoopExample();
+        loops.DoWhileLoopExample();
+        loops.ForeachLoopExample();
+        loops.NestedLoopExample();
         Console.ReadLine();
+
 
 
     }
