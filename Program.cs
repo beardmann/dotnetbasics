@@ -19,12 +19,12 @@ class Hello
 
 
         // variables 
-        //int a = 10, b = 34;
-        //bool c = true, d = false;
-        //variables1 var1 = new variables1();
-        //// variables and operators
-        //var1.testvariables(a, b, c, d);
-        
+        int a = 10, b = 34;
+        bool c = true, d = false;
+        variables1 var1 = new variables1();
+        // variables and operators
+        var1.testvariables(a, b, c, d);
+
 
         //conditional operators  if , if-else , switch;
 
@@ -39,14 +39,19 @@ class Hello
         // loops while , do-while , for , foreach
         Loops loops = new Loops();
         loops.ForLoopExample();
-       
+
         loops.WhileLoopExample();
         loops.DoWhileLoopExample();
         loops.ForeachLoopExample();
         loops.NestedLoopExample();
         Console.ReadLine();
 
+        // operators xor and right shift left
+        Operators operators = new Operators();
+        operators.Operators1(15, 3);
+        Console.ReadLine();
 
+        //
 
     }
 
