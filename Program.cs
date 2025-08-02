@@ -1,19 +1,32 @@
-﻿class Hello
+﻿using dotnetbasics;
+using System;
+
+
+class Hello
 {
-    static void Main(string[] args)
+    static void Main(String[] args)
     {
-        System.Console.WriteLine("Hello, World!");
-        Greet();
-        System.Console.ReadLine();
+        Console.WriteLine("Hello, World!");
+
+
+
+        //Comments --single line comment 
+
+        /*
+         multiple line comments 
+       all the are example of multiple line comments 
+         */
+
+
+        // variables 
+        int a = 10, b = 34;
+        bool c = true, d = false;
+        variables1 var1 = new variables1();
+        var1.testvariables(a, b, c, d);
+        Console.ReadLine();
+
+
     }
 
-    static void Greet()
-    {
-        System.Console.WriteLine("Greetings from the Greet method!");
-    }
 
-    static void AnotherMethod()
-    {
-        System.Console.WriteLine("This is another method.");
-    }
 }
