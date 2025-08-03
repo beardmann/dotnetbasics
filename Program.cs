@@ -26,32 +26,49 @@ class Hello
         var1.testvariables(a, b, c, d);
 
 
-        //conditional operators  if , if-else , switch;
+        ////conditional operators  if , if-else , switch;
 
-        ConditionalOperaators cond = new ConditionalOperaators();
-        cond.DrivingLicense(20);
+        //ConditionalOperaators cond = new ConditionalOperaators();
+        //cond.DrivingLicense(20);
 
-        cond.CheckEvenOdd(10);
-        cond.CheckEvenOdd(-11);
-        cond.DayOfWeek(1);
+        //cond.CheckEvenOdd(10);
+        //cond.CheckEvenOdd(-11);
+        //cond.DayOfWeek(1);
 
 
-        // loops while , do-while , for , foreach
-        Loops loops = new Loops();
-        loops.ForLoopExample();
+        //// loops while , do-while , for , foreach
+        //Loops loops = new Loops();
+        //loops.ForLoopExample();
 
-        loops.WhileLoopExample();
-        loops.DoWhileLoopExample();
-        loops.ForeachLoopExample();
-        loops.NestedLoopExample();
+        //loops.WhileLoopExample();
+        //loops.DoWhileLoopExample();
+        //loops.ForeachLoopExample();
+        //loops.NestedLoopExample();
+        //Console.ReadLine();
+
+        //// operators xor and right shift left
+        //Operators operators = new Operators();
+        //operators.Operators1(15, 3);
+        //Console.ReadLine();
+
+        //// oops concepts inheritance , polymorphism , encapsulation , abstraction
+        ///
+
+
+        //Child oops = new Child();
+        //oops.Display();
+        //oops.Show(); // This will call the Parent class method due to method hiding
+        //oops.test();
+        //oops.Hyper(); // This will call the Child class method due to method hiding
+
+        oops_2_PolmorphismExample oops1 = new oops_2_PolmorphismExample1();
+        // method overloading example
+        Console.WriteLine(oops1.add(10, 20)); // Calls the int version
+        Console.WriteLine(oops1.add(10.5, 20.5)); // Calls the double version
+            
+
+
         Console.ReadLine();
-
-        // operators xor and right shift left
-        Operators operators = new Operators();
-        operators.Operators1(15, 3);
-        Console.ReadLine();
-
-        //
 
     }
 
