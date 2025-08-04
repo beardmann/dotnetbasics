@@ -15,6 +15,10 @@ namespace dotnetbasics
             Console.WriteLine(a / b);
             Console.WriteLine(a % b);
 
+
+           int x = 100;         // int = Data Type, 100 = Literal
+        string name = "Ram"; // string = Data Type, "Ram" = Literal
+
             Console.WriteLine("Relational operaions");
 
 
