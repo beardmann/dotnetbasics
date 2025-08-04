@@ -60,12 +60,19 @@ class Hello
         //oops.Show(); // This will call the Parent class method due to method hiding
         //oops.test();
         //oops.Hyper(); // This will call the Child class method due to method hiding
+        //GrandChild grandChild = new GrandChild();
+        //grandChild.DisplayGrandChild(); // This will call the GrandChild class method
+        //Sibling sibling = new Sibling();
+        //sibling.DisplaySibling(); // This will call the Sibling class method
+
+
 
         oops_2_PolmorphismExample oops1 = new oops_2_PolmorphismExample1();
         // method overloading example
         Console.WriteLine(oops1.add(10, 20)); // Calls the int version
         Console.WriteLine(oops1.add(10.5, 20.5)); // Calls the double version
-            
+
+        
 
 
         Console.ReadLine();

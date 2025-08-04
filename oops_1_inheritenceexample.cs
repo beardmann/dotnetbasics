@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace dotnetbasics
 {
     // inheritence example
+
+    // types of inheritence  single inheritence , multilevel inheritance, hierarchical inheritance, multiple inheritance, hybrid inheritance
+
+    // example of single inheritance
     class Parent
     {
         public  void Display()
@@ -35,7 +39,30 @@ namespace dotnetbasics
     }
 
 
-     
+    // example of multilevel inheritance
+
+    class GrandChild : Child
+    {
+        public void DisplayGrandChild()
+        {
+            Console.WriteLine("GrandChild class method");
+        }
+    }
+
+
+    // example of hierarchical inheritance
+
+    class Sibling : Parent
+    {
+        public void DisplaySibling()
+        {
+            Console.WriteLine("Sibling class method");
+        }
+    }
+
+    // example of multiple inheritance this can not be achieve by the inheritence in C# but can be achieved by interfaces
+
+
 
 
 
