@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace dotnetbasics
 {
-    internal class oops_3_encapsulation
+    public class oops_3_encapsulation
     {
         // example of encapsulation
-        class Person
+       public class Person
         {
             private string name;
             private int age;
