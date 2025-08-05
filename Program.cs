@@ -71,9 +71,13 @@ class Hello
         // method overloading example
         Console.WriteLine(oops1.add(10, 20)); // Calls the int version
         Console.WriteLine(oops1.add(10.5, 20.5)); // Calls the double version
+         Pig pig = new Pig();
+        pig.MakeSound();  // Output: Wee wee!
+        pig.Sleep();      // Output: The animal is sleeping.
 
-        
 
+
+        pig.food("vegetables"); // Output: The pig eats vegetables.
 
         Console.ReadLine();
 
