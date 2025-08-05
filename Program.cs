@@ -86,16 +86,21 @@ all the are example of multiple line comments
 //Console.WriteLine("Extracted text: " + result);
 
 // encapsulation example
-oops_3_encapsulation.Person person = new oops_3_encapsulation.Person
-{
-    Name = "John Doe", // Set the name
-    Age = 30 // Set the age
-};
-person.Display(); // Display the person's details
-                  // person.Name = ""; // Uncommenting this line will throw an exception because the name cannot be empty
-                  // person.Age = -5; // Uncommenting this line will throw an exception because age must be a positive number
-                  // person.Display(); // Display the person's details again
-                  //Console.WriteLine("Press Enter to exit...");  
+//oops_3_encapsulation.Person person = new oops_3_encapsulation.Person
+//{
+//    Name = "John Doe", // Set the name
+//    Age = 30 // Set the age
+//};
+//person.Display(); // Display the person's details
+//                  // person.Name = ""; // Uncommenting this line will throw an exception because the name cannot be empty
+//                  // person.Age = -5; // Uncommenting this line will throw an exception because age must be a positive number
+//                  // person.Display(); // Display the person's details again
+//                  //Console.WriteLine("Press Enter to exit...");  
+
+
+string filePath = "C:\\Users\\Beardmann_shubh\\Desktop\\testing1.txt";
+FileHandling fileHandler = new FileHandling();
+fileHandler.ReadFile(filePath);
 
 
 Console.ReadLine();
